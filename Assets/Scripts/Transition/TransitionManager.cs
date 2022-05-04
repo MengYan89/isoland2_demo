@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class TransitionManager : Singleton<TransitionManager>, ISaveable
 {
 
-    [SceneName]public string startScene;
+    public string startScene;
 
     public CanvasGroup fadeCanvasGroup;
 
